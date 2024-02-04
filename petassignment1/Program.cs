@@ -21,7 +21,7 @@ namespace petassignment1
             Console.WriteLine("3.Rabbit\n");
             Console.Write("Input User:");
 
-            //Name the Pet
+            //Name the Pet 
             int pettype = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("\nName your pet?");
             Console.WriteLine("Input User: ");
@@ -39,7 +39,7 @@ namespace petassignment1
                 Console.WriteLine("5.Exit");
 
                 Console.Write("Input User: ");
-                int care = Convert.ToInt32(Console.ReadLine());
+                int care = Convert.ToInt32(Console.ReadLine()); 
                 switch (care)
                 {
                     case 1:
