@@ -40,7 +40,7 @@ namespace petassignment1
 
                 Console.Write("Input User: ");
                 int care = Convert.ToInt32(Console.ReadLine()); 
-                switch (care)
+                switch (care) 
                 {
                     case 1:
                         Hungry = Hungry - 2; //Less Hungry
