@@ -12,6 +12,8 @@ namespace petassignment1
             int Hungry = 6;
             int Happy = 7;
 
+            Console.WriteLine("Welcome to pet world!");
+
             //Selection for Petanimals
             Console.WriteLine("Select Type of Pet");
             Console.WriteLine("1.Dog");
