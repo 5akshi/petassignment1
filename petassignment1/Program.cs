@@ -81,7 +81,7 @@ namespace petassignment1
                 Happy = Happy - 1;
                 if
                     (Healthy <= 2 || Hungry <= 2 || Happy <= 2)
-                    Console.WriteLine("Ohh! Your Pet health is in Risk");
+                    Console.WriteLine("Ohh! Your Pet health is in Risk"); 
                 }
             }
         }
